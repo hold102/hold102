@@ -2,9 +2,9 @@
 
 <p align="center"><a href="https://github.com/hold102"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg"><img alt="Full-Stack Developer · FinTech &amp; Applied AI. Computer Science @ Universiti Malaya. Ticker: 108 contributions in the last year, 13 public repos." src="assets/header-light.svg" width="100%"></picture></a></p>
 
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/overview-dark.svg"><img alt="108 contributions in the last 12 months (+370% vs prior year), 68 commits in 2026, best week 26 contributions, 13 public repos, 4 hackathons. Chart of lifetime cumulative contributions, now 133." src="assets/overview-light.svg" width="100%"></picture></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/overview-dark.svg"><img alt="108 contributions in the last 12 months (+370% vs prior year), 68 commits in 2026, best week 25 contributions, 13 public repos, 4 hackathons. Chart of lifetime cumulative contributions, now 133." src="assets/overview-light.svg" width="100%"></picture></p>
 
-<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/allocation-dark.svg"><img alt="Languages by share of code across public repos: Java 31.3%, JavaScript 27.8%, Dart 17.5%, Python 11.1%, TypeScript 8.9%, other 3.6%. Most active weekday: FRI." src="assets/allocation-light.svg" width="100%"></picture></p>
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/allocation-dark.svg"><img alt="Languages by share of code across public repos: Java 30.6%, JavaScript 29.2%, Dart 17.1%, Python 10.8%, TypeScript 8.7%, other 3.5%. Most active weekday: FRI." src="assets/allocation-light.svg" width="100%"></picture></p>
 
 <p align="center">
 <a href="https://github.com/hold102/JagaDuit_AI"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-jaga-dark.svg"><img alt="Scam-prevention layer for Malaysian online banking. Fuses rules, an LLM, an ML classifier and behaviour signals into one verdict. Stack: React, Python, scikit-learn, LLM. 14 COMMITS · UPD 24 MAY 2026." src="assets/card-jaga-light.svg" width="49%"></picture></a>
