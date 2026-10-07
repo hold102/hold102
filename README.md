@@ -4,7 +4,7 @@
 
 <p align="center"><img alt="108 contributions in the last 12 months (+370% vs prior year), 68 commits in 2026, best week 25 contributions, 13 public repos, 4 hackathons. Chart of lifetime cumulative contributions, now 133." src="assets/overview-dark.svg" width="100%"></p>
 
-<p align="center"><img alt="Languages by share of code across public repos: Java 30.6%, JavaScript 29.2%, Dart 17.1%, Python 10.8%, TypeScript 8.7%, other 3.5%. Most active weekday: FRI." src="assets/allocation-dark.svg" width="100%"></p>
+<p align="center"><img alt="Languages by share of code across public repos: Java 30.6%, JavaScript 29.3%, Dart 17.1%, Python 10.8%, TypeScript 8.7%, other 3.5%. Most active weekday: FRI." src="assets/allocation-dark.svg" width="100%"></p>
 
 <p align="center">
 <a href="https://github.com/hold102/JagaDuit_AI"><img alt="Scam-prevention layer for Malaysian online banking. Fuses rules, an LLM, an ML classifier and behaviour signals into one verdict. Stack: React, Python, scikit-learn, LLM. 14 COMMITS · UPD 24 MAY 2026." src="assets/card-jaga-dark.svg" width="49%"></a>
