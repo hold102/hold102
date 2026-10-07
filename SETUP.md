@@ -20,11 +20,11 @@ Don't edit `README.md` by hand. It is regenerated from the config on every build
 
 ## Publish
 
-1. Move the old files (`MidTerm.java`, `MidTerm2.java`) out of the `hold102/hold102` repo.
-2. Copy this folder's contents into that repo and push to `main`.
-3. In repo **Settings → Actions → General → Workflow permissions**, choose **Read and write**.
-4. Recommended: in **Settings → Public profile**, tick **Include private contributions on my profile**. Without it, the daily Action can't see private-repo activity and the numbers will drop.
-5. Optional: create a fine-grained, read-only personal access token and save it as the `PROFILE_TOKEN` repo secret for the most complete data.
+Already published to `hold102/hold102`. This folder is a clone of it, so commit and push to `main` as usual (pull first: the daily Action commits too).
+
+1. If the Action ever fails to push, go to repo **Settings → Actions → General → Workflow permissions**, choose **Read and write**.
+2. Recommended: in **Settings → Public profile**, tick **Include private contributions on my profile**. Without it, the daily Action can't see private-repo activity and the numbers will drop.
+3. Optional: create a fine-grained, read-only personal access token and save it as the `PROFILE_TOKEN` repo secret for the most complete data.
 
 ## Theme
 
