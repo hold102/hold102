@@ -2,7 +2,7 @@
 // Builds the dashboard: fetch GitHub data → render dark/light SVGs → write README.
 //   node scripts/build.mjs            fetch fresh data (needs GITHUB_TOKEN or `gh auth login`)
 //   node scripts/build.mjs --offline  re-render from data/snapshot.json (no network)
-import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, readdirSync, rmSync } from 'node:fs';
 import { fetchData, derive } from './lib/data.mjs';
 import { THEMES, esc } from './lib/svg.mjs';
 import * as P from './lib/panels.mjs';
@@ -21,12 +21,17 @@ if (!offline) {
 }
 const m = derive(data);
 
+// "auto" follows each viewer's GitHub theme; "dark" or "light" shows that design to everyone.
+const mode = cfg.theme ?? 'auto';
+const themes = mode === 'auto' ? Object.values(THEMES) : [THEMES[mode]];
+
 mkdirSync(path('assets'), { recursive: true });
-const alts = {};
+const alts = {}, written = new Set();
 const out = (name, render) => {
-  for (const t of Object.values(THEMES)) {
-    const svg = render(t);
-    writeFileSync(path(`assets/${name}-${t.name}.svg`), svg);
+  for (const t of themes) {
+    const svg = render(t), file = `${name}-${t.name}.svg`;
+    writeFileSync(path(`assets/${file}`), svg);
+    written.add(file);
     alts[name] ??= svg.match(/<desc id="d">([^<]*)<\/desc>/)[1];
   }
 };
@@ -41,9 +46,13 @@ for (const f of cfg.featured) out(`card-${slug(f)}`, t => P.card(t, f, data.repo
 out('stack', t => P.stack(t, cfg));
 cfg.contacts.forEach((c, i) => out(`key-${i + 1}`, t => P.key(t, c)));
 out('footer', t => P.footer(t, cfg, data));
+// drop SVGs from removed panels or a theme no longer in use
+for (const f of readdirSync(path('assets'))) if (f.endsWith('.svg') && !written.has(f)) rmSync(path(`assets/${f}`));
 
 // ---------------------------------------------------------------- README
-const pic = (name, width = '100%') => `<picture><source media="(prefers-color-scheme: dark)" srcset="assets/${name}-dark.svg"><img alt="${alts[name]}" src="assets/${name}-light.svg" width="${width}"></picture>`;
+const pic = (name, width = '100%') => mode === 'auto'
+  ? `<picture><source media="(prefers-color-scheme: dark)" srcset="assets/${name}-dark.svg"><img alt="${alts[name]}" src="assets/${name}-light.svg" width="${width}"></picture>`
+  : `<img alt="${alts[name]}" src="assets/${name}-${mode}.svg" width="${width}">`;
 const link = (url, inner) => `<a href="${esc(url)}">${inner}</a>`;
 const repoUrl = f => f.url ?? `https://github.com/${f.repo}`;
 
@@ -81,4 +90,4 @@ ${cfg.contacts.map((c, i) => link(c.url, pic(`key-${i + 1}`, '32%'))).join('\n')
 <p align="center">${pic('footer')}</p>
 `;
 writeFileSync(path('README.md'), readme);
-console.log(`Built ${Object.keys(alts).length * 2} SVGs + README.md (${offline ? 'offline' : 'fresh data'}, ${data.year.contributions} contributions/yr).`);
+console.log(`Built ${written.size} SVGs + README.md (${offline ? 'offline' : 'fresh data'}, ${data.year.contributions} contributions/yr).`);

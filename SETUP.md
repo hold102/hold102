@@ -28,6 +28,7 @@ Don't edit `README.md` by hand. It is regenerated from the config on every build
 
 ## Theme
 
+- `"theme"` in the config: `"dark"` (current) shows the terminal design to everyone, `"light"` the paper design, `"auto"` follows each viewer's GitHub theme.
 - Dark: amber-on-black market terminal. Light: salmon "financial paper" with a serif name.
 - Colors live in `scripts/lib/svg.mjs` (`THEMES`). Panels are in `scripts/lib/panels.mjs`.
 - Font: JetBrains Mono (SIL OFL 1.1, see `scripts/fonts/OFL.txt`), subset and embedded.
