@@ -1,0 +1,41 @@
+name: Refresh dashboard
+
+on:
+  schedule:
+    - cron: "0 16 * * *" # daily at 00:00 MYT
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["profile.config.json", "scripts/**"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-dashboard
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Build SVGs + README
+        run: node scripts/build.mjs
+        env:
+          # Optional: add a read-only PAT as the PROFILE_TOKEN secret to include private-repo contributions.
+          GITHUB_TOKEN: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md assets data
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "chore: refresh dashboard"
+            git push
+          fi

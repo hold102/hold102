@@ -1,0 +1,193 @@
+{
+  "login": "hold102",
+  "commitEmails": [
+    "liangyao0808@gmail.com",
+    "LYYY@JINGYANGs-MacBook-Air.local",
+    "113155551+hold102@users.noreply.github.com"
+  ],
+  "name": "Liang Yao",
+  "ticker": "HOLD102",
+  "headline": "Full-Stack Developer · FinTech & Applied AI",
+  "subline": "Computer Science @ Universiti Malaya",
+  "location": "KUALA LUMPUR",
+  "timezone": "MYT",
+  "rating": "BUY",
+  "hackathons": 4,
+  "hackathonsNote": "2025-2026",
+  "featured": [
+    {
+      "symbol": "JAGA",
+      "repo": "hold102/JagaDuit_AI",
+      "title": "JagaDuit AI",
+      "blurb": "Scam-prevention layer for Malaysian online banking. Fuses rules, an LLM, an ML classifier and behaviour signals into one verdict.",
+      "stack": [
+        "React",
+        "Python",
+        "scikit-learn",
+        "LLM"
+      ],
+      "tag": "HACKATHON"
+    },
+    {
+      "symbol": "FNBG",
+      "repo": "brendan1107/UMH2026",
+      "title": "F&B Genie",
+      "blurb": "AI agent that tells Malaysian F&B owners GO, PIVOT or STOP before they invest. UMHackathon 2026 team build.",
+      "stack": [
+        "Python",
+        "AI Agent",
+        "Vercel"
+      ],
+      "tag": "LIVE"
+    },
+    {
+      "symbol": "SPLT",
+      "repo": "hold102/v0-project",
+      "title": "SplitEase",
+      "blurb": "Mobile-first expense splitting with email verification and custom split amounts.",
+      "stack": [
+        "Flutter",
+        "Node.js",
+        "Supabase"
+      ],
+      "tag": "MOBILE"
+    },
+    {
+      "symbol": "TWSE",
+      "repo": "txy2612/TechWise",
+      "title": "TechWise",
+      "blurb": "Bilingual PWA that teaches seniors Gmail, Maps and online safety through 24 gamified lessons and 15 badges.",
+      "stack": [
+        "React",
+        "TypeScript",
+        "Tailwind",
+        "Firebase"
+      ],
+      "tag": "TEAM"
+    },
+    {
+      "symbol": "UMST",
+      "repo": "hold102/UM-Study",
+      "title": "UM Study",
+      "blurb": "Week-aware companion to UM Spectrum: sign in, pick a course, pick a week, get the right file in three taps.",
+      "stack": [
+        "React",
+        "TypeScript",
+        "Spring Boot",
+        "Supabase"
+      ],
+      "tag": "BUILDING"
+    },
+    {
+      "symbol": "EDUB",
+      "repo": "hold102/EduBridge1",
+      "title": "EduBridge",
+      "blurb": "Android e-learning app with daily check-ins, streaks, an XP level system and digital badges.",
+      "stack": [
+        "Java",
+        "Android",
+        "Firestore"
+      ],
+      "tag": "ANDROID"
+    }
+  ],
+  "more": [
+    {
+      "title": "SmartFinance",
+      "repo": "hold102/SmartFinance",
+      "blurb": "Finance tracker with savings goals, streaks and spending insights (Expo + Next.js + Drizzle). Built at UTM x Hackathon."
+    },
+    {
+      "title": "RetainAI",
+      "repo": "JosephLauTiewJung/hackathon-2026",
+      "blurb": "Churn-risk copilot for customer-success teams (Random Forest + structured GenAI). Hackathon team, contributor."
+    }
+  ],
+  "stack": [
+    {
+      "label": "LANGUAGES",
+      "items": [
+        "Java",
+        "TypeScript",
+        "Python",
+        "JavaScript",
+        "Dart",
+        "SQL"
+      ]
+    },
+    {
+      "label": "FRONTEND",
+      "items": [
+        "React",
+        "Vite",
+        "Tailwind",
+        "React Router"
+      ]
+    },
+    {
+      "label": "MOBILE",
+      "items": [
+        "Flutter",
+        "React Native",
+        "Expo",
+        "Android"
+      ]
+    },
+    {
+      "label": "BACKEND",
+      "items": [
+        "Spring Boot",
+        "Node.js",
+        "Next.js API",
+        "REST"
+      ]
+    },
+    {
+      "label": "DATA",
+      "items": [
+        "PostgreSQL",
+        "Supabase",
+        "SQLite",
+        "Drizzle ORM",
+        "Firebase"
+      ]
+    },
+    {
+      "label": "AI / ML",
+      "items": [
+        "scikit-learn",
+        "LLM APIs",
+        "Tesseract OCR"
+      ]
+    },
+    {
+      "label": "TOOLING",
+      "items": [
+        "Git",
+        "Docker",
+        "Vercel",
+        "Render"
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "key": "F1",
+      "label": "LINKEDIN",
+      "hint": "connect",
+      "url": "https://www.linkedin.com/in/YOUR-HANDLE"
+    },
+    {
+      "key": "F2",
+      "label": "EMAIL",
+      "hint": "liangyao0808@gmail.com",
+      "url": "mailto:liangyao0808@gmail.com"
+    },
+    {
+      "key": "F3",
+      "label": "ALL REPOS",
+      "hint": "browse",
+      "url": "https://github.com/hold102?tab=repositories"
+    }
+  ]
+}
