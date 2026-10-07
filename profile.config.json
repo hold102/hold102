@@ -43,7 +43,7 @@
     },
     {
       "symbol": "SPLT",
-      "repo": "hold102/v0-project",
+      "repo": "hold102/SplitEase",
       "title": "SplitEase",
       "blurb": "Mobile-first expense splitting with email verification and custom split amounts.",
       "stack": [
