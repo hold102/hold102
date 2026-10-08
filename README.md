@@ -2,7 +2,7 @@
 
 <p align="center"><a href="https://github.com/hold102"><img alt="Full-Stack Developer · FinTech &amp; Applied AI. Computer Science @ Universiti Malaya. Ticker: 108 contributions in the last year, 10 public repos." src="assets/header-dark.svg" width="100%"></a></p>
 
-<p align="center"><img alt="108 contributions in the last 12 months (+370% vs prior year), 73 commits in 2026, best week 25 contributions, 10 public repos, 4 hackathons. Chart of lifetime cumulative contributions, now 133." src="assets/overview-dark.svg" width="100%"></p>
+<p align="center"><img alt="108 contributions in the last 12 months (+370% vs prior year), 73 commits in 2026, best week 23 contributions, 10 public repos, 4 hackathons. Chart of lifetime cumulative contributions, now 133." src="assets/overview-dark.svg" width="100%"></p>
 
 <p align="center"><img alt="Languages by share of code across public repos: JavaScript 32.0%, Java 29.3%, Dart 18.7%, Python 9.7%, TypeScript 6.5%, other 3.8%. Most active weekday: FRI." src="assets/allocation-dark.svg" width="100%"></p>
 
@@ -40,4 +40,4 @@
 <a href="https://github.com/hold102?tab=repositories"><img alt="ALL REPOS: https://github.com/hold102?tab=repositories" src="assets/key-3-dark.svg" width="32%"></a>
 </p>
 
-<p align="center"><img alt="Data from the GitHub GraphQL API, last updated 07 OCT 2026." src="assets/footer-dark.svg" width="100%"></p>
+<p align="center"><img alt="Data from the GitHub GraphQL API, last updated 08 OCT 2026." src="assets/footer-dark.svg" width="100%"></p>
