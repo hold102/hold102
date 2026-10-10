@@ -16,7 +16,7 @@ text{font-family:'JBM', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace
 </style>
 <clipPath id="clip"><rect width="840" height="238" rx="8"/></clipPath>
 <g clip-path="url(#clip)"><rect width="840" height="238" fill="#0B0E13"/><rect width="840" height="30" fill="#131922"/><line x1="0" y1="30.5" x2="840" y2="30.5" stroke="#26303B"/></g><rect x=".5" y=".5" width="839" height="237" rx="7.5" fill="none" stroke="#26303B"/><path d="M16 10 L22 15 L16 20 Z" fill="#FFB627"/><text x="28" y="19.5" font-size="12" class="b" fill="#FFB627" letter-spacing=".6">PORTFOLIO ALLOCATION · LANGUAGES</text><text x="824" y="19.5" font-size="10.5" fill="#808A96" text-anchor="end" letter-spacing=".4">WEIGHT BY BYTES · PUBLIC REPOS</text>
-<rect x="16" y="46" width="153.2" height="12" rx="1.5" fill="#FFB627"/><rect x="171.2" y="46" width="138.6" height="12" rx="1.5" fill="#5CC8FF"/><rect x="311.8" y="46" width="87.9" height="12" rx="1.5" fill="#3DDC84"/><rect x="401.6" y="46" width="44.7" height="12" rx="1.5" fill="#FF6B8B"/><rect x="448.3" y="46" width="29.2" height="12" rx="1.5" fill="#B794F6"/><rect x="479.5" y="46" width="18.5" height="12" rx="1.5" fill="#808A96"/><text x="30" y="86" font-size="9.5" fill="#808A96" letter-spacing=".6">SYM</text>
+<rect x="16" y="46" width="153.2" height="12" rx="1.5" fill="#FFB627"/><rect x="171.2" y="46" width="138.6" height="12" rx="1.5" fill="#5CC8FF"/><rect x="311.8" y="46" width="87.8" height="12" rx="1.5" fill="#3DDC84"/><rect x="401.7" y="46" width="44.7" height="12" rx="1.5" fill="#FF6B8B"/><rect x="448.3" y="46" width="29.2" height="12" rx="1.5" fill="#B794F6"/><rect x="479.5" y="46" width="18.5" height="12" rx="1.5" fill="#808A96"/><text x="30" y="86" font-size="9.5" fill="#808A96" letter-spacing=".6">SYM</text>
 <text x="90" y="86" font-size="9.5" fill="#808A96" letter-spacing=".6">LANGUAGE</text>
 <text x="410" y="86" font-size="9.5" fill="#808A96" text-anchor="end" letter-spacing=".6">WEIGHT</text>
 <text x="496" y="86" font-size="9.5" fill="#808A96" text-anchor="end" letter-spacing=".6">REPOS</text>
@@ -69,8 +69,8 @@ text{font-family:'JBM', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace
 <rect x="541.9" y="181.1" width="22" height="18.9" rx="1.5" fill="#7A5A1E" style="transform-origin:552.9px 200px;animation:grow .8s ease-out 0.00s both"/>
 <text x="552.9" y="175.1" font-size="9.5" fill="#808A96" text-anchor="middle">7</text>
 <text x="552.9" y="218" font-size="9.5" fill="#808A96" text-anchor="middle">MON</text>
-<rect x="583.6" y="178.4" width="22" height="21.6" rx="1.5" fill="#7A5A1E" style="transform-origin:594.6px 200px;animation:grow .8s ease-out 0.06s both"/>
-<text x="594.6" y="172.4" font-size="9.5" fill="#808A96" text-anchor="middle">8</text>
+<rect x="583.6" y="181.1" width="22" height="18.9" rx="1.5" fill="#7A5A1E" style="transform-origin:594.6px 200px;animation:grow .8s ease-out 0.06s both"/>
+<text x="594.6" y="175.1" font-size="9.5" fill="#808A96" text-anchor="middle">7</text>
 <text x="594.6" y="218" font-size="9.5" fill="#808A96" text-anchor="middle">TUE</text>
 <rect x="625.3" y="162.2" width="22" height="37.8" rx="1.5" fill="#7A5A1E" style="transform-origin:636.3px 200px;animation:grow .8s ease-out 0.12s both"/>
 <text x="636.3" y="156.2" font-size="9.5" fill="#808A96" text-anchor="middle">14</text>
@@ -81,8 +81,8 @@ text{font-family:'JBM', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace
 <rect x="708.7" y="92" width="22" height="108" rx="1.5" fill="#FFB627" style="transform-origin:719.7px 200px;animation:grow .8s ease-out 0.24s both"/>
 <text x="719.7" y="86" font-size="9.5" fill="#FFB627" text-anchor="middle">40</text>
 <text x="719.7" y="218" font-size="9.5" fill="#E9E4D8" text-anchor="middle" class="b">FRI</text>
-<rect x="750.4" y="164.9" width="22" height="35.1" rx="1.5" fill="#7A5A1E" style="transform-origin:761.4px 200px;animation:grow .8s ease-out 0.30s both"/>
-<text x="761.4" y="158.9" font-size="9.5" fill="#808A96" text-anchor="middle">13</text>
+<rect x="750.4" y="162.2" width="22" height="37.8" rx="1.5" fill="#7A5A1E" style="transform-origin:761.4px 200px;animation:grow .8s ease-out 0.30s both"/>
+<text x="761.4" y="156.2" font-size="9.5" fill="#808A96" text-anchor="middle">14</text>
 <text x="761.4" y="218" font-size="9.5" fill="#808A96" text-anchor="middle">SAT</text>
 <rect x="792.1" y="159.5" width="22" height="40.5" rx="1.5" fill="#7A5A1E" style="transform-origin:803.1px 200px;animation:grow .8s ease-out 0.36s both"/>
 <text x="803.1" y="153.5" font-size="9.5" fill="#808A96" text-anchor="middle">15</text>

@@ -81,7 +81,7 @@
     },
     {
       "symbol": "EDUB",
-      "repo": "hold102/EduBridge1",
+      "repo": "hold102/EduBridge",
       "title": "EduBridge",
       "blurb": "Android e-learning app with daily check-ins, streaks, an XP level system and digital badges.",
       "stack": [
