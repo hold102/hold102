@@ -1,5 +1,5 @@
 {
- "fetchedAt": "2026-10-24T18:38:06.342Z",
+ "fetchedAt": "2026-10-25T18:46:02.926Z",
  "login": "hold102",
  "createdAt": "2022-09-09T02:27:17Z",
  "year": {
@@ -8,16 +8,6 @@
   "prs": 1,
   "issues": 0,
   "days": [
-   {
-    "date": "2025-10-24",
-    "count": 0,
-    "weekday": 5
-   },
-   {
-    "date": "2025-10-25",
-    "count": 0,
-    "weekday": 6
-   },
    {
     "date": "2025-10-26",
     "count": 0,
@@ -1837,6 +1827,11 @@
     "date": "2026-10-24",
     "count": 0,
     "weekday": 6
+   },
+   {
+    "date": "2026-10-25",
+    "count": 0,
+    "weekday": 0
    }
   ]
  },
