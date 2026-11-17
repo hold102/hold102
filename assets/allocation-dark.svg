@@ -84,7 +84,7 @@ text{font-family:'JBM', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace
 <rect x="750.4" y="159.5" width="22" height="40.5" rx="1.5" fill="#7A5A1E" style="transform-origin:761.4px 200px;animation:grow .8s ease-out 0.30s both"/>
 <text x="761.4" y="153.5" font-size="9.5" fill="#808A96" text-anchor="middle">15</text>
 <text x="761.4" y="218" font-size="9.5" fill="#808A96" text-anchor="middle">SAT</text>
-<rect x="792.1" y="159.5" width="22" height="40.5" rx="1.5" fill="#7A5A1E" style="transform-origin:803.1px 200px;animation:grow .8s ease-out 0.36s both"/>
-<text x="803.1" y="153.5" font-size="9.5" fill="#808A96" text-anchor="middle">15</text>
+<rect x="792.1" y="167.6" width="22" height="32.4" rx="1.5" fill="#7A5A1E" style="transform-origin:803.1px 200px;animation:grow .8s ease-out 0.36s both"/>
+<text x="803.1" y="161.6" font-size="9.5" fill="#808A96" text-anchor="middle">12</text>
 <text x="803.1" y="218" font-size="9.5" fill="#808A96" text-anchor="middle">SUN</text>
 </svg>
